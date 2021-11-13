@@ -1,5 +1,9 @@
 # K-means clustering
 # put the funtions together again with  fit and mse_classes
+import matplotlib.pyplot as plt
+from sklearn import datasets
+from sklearn.decomposition import PCA
+import numpy as np
 
 def initialize_centroids(data, k =2):
     Centroids =[]
