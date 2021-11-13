@@ -1,0 +1,35 @@
+# K - MEANS Clustering
+show the progress of coding step by step
+
+- K-means clustering is one of the simplest and popular unsupervised machine learning algorithms.
+- Typically, unsupervised algorithms make inferences from datasets using only input vectors without referring to known, or labelled, outcomes.
+- In other words, the K-means algorithm identifies k number of centroids, and then allocates every data point to the nearest cluster, while keeping the centroids as small as possible.
+- The ‘means’ in the K-means refers to averaging of the data; that is, finding the centroid.
+
+## 1. About the code algorithm
+### Step 1. Start from k=2 for the K-Mean cluster, code step by step
+- k = 2, and generate the centroids randomly
+- create function of distance
+- create function of assignment to find the closest centroid for x point
+    - definition of the assignment function to find the closest/min of the distance between x(one point) and centroid(one of the Centroids) 
+    - return the index of the centroid by argmin()
+    - Then we can find which centroid is most closest/min distance to x, that means x blong to that centroid cluster.
+- plot the data in 2 groups
+- create function of make-class 
+- divide the data in to 2 groups to A
+- create function of new_centroids to generate the mean center for each cluster as the new_centroids
+
+### Step 2. put code together, try k=3 
+- then we can draw the points in different color ,and see the progress from C0 to C1,to C2, to C3.
+
+### step3 to measure the errors
+- define the fit to find the best centroids
+- define the MSE of class to measure the errors
+
+### Step 4: get the final gathered code 
+- have a look at the improvement of the progress with k-mean 
+
+##  2. About the files
+There are 2 files in thi folder:
+- one is in .ipynb, we can see the results step by step, can see how the codes come with progress.
+- one is .py, we can use the final codes that gathered together with an example.
